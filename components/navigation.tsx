@@ -141,8 +141,10 @@ export function Navigation() {
               )}
             </>
           )}
-          <Button size="sm" className="bg-[#69E300] text-black hover:bg-[#5bc200] font-semibold">
-            GhostWriter Agent
+          <Button size="sm" className="bg-[#69E300] text-black hover:bg-[#5bc200] font-semibold" asChild>
+            <Link href="/ghostwriter-agent">
+              GhostWriter Agent
+            </Link>
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden">
             <Menu className="h-5 w-5 text-white" />
